@@ -2,6 +2,10 @@
 
 This library allows grouping multiple `Job`s, which are normally submmitted directly to the `BatchProcessor`, to enhance the performance of the operation.
 
+## Quick start
+- Check out the source code
+- `npm ci && npm test`
+
 ## Configuration options
 There are 2 available confiugration options:
 - maxQueueSize: how many jobs should be accumulated before being pushed to the processor
